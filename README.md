@@ -14,10 +14,6 @@ Welcome to my portfolio! Here you can explore the various projects and certifica
 - [Certifications](#certifications)
 - [Contact](#contact)
 
-## Introduction
-
-![Profile Photo](./img/foto-de-perfil.jpg)
-
 ### Full-Stack Developer
 - **Technologies:** Python | PHP | HTML&CSS | Javascript
 - **Age:** 22
