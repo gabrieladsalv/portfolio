@@ -1,5 +1,6 @@
 .introduction {
   max-width: 1200px;
+  height: 100vh;
   padding: 2.5rem 2.25rem;
   margin: 0 auto;
   display: grid;
@@ -28,7 +29,7 @@
   height: 100px;
   background: url("../img/detail.svg") no-repeat center;
   position: absolute;
-  top: 330px;
+  top: 350px;
   left: 500px;
   z-index: -1;
 }
