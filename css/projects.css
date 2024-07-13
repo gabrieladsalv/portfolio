@@ -67,25 +67,21 @@
   align-content: start;
 }
 
-.skills li {
-  font-size: 0.875rem;
-  line-height: 1.4;
-  border-radius: 4px;
-  background: #ffffff;
-  padding: 5px 10px;
-}
-
 @media (max-width: 800px) {
   .projects {
-    grid-template-columns: 1fr;
-    gap: 40px;
+    grid-template-columns: 1fr; 
+    gap: 40px; 
+    padding: 20px; 
   }
+
   .projects .subtitle {
-    color: #141414;
+    color: #141414; 
   }
+
   .projects-main-text {
-    font-size: 1.25rem;
+    font-size: 1.25rem; 
   }
+
   .project-year {
     position: initial;
     order: 1;
@@ -96,6 +92,6 @@
 
 @media (max-width: 400px) {
   .projects {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
   }
 }
