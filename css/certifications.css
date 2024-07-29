@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .certifications {
   background: #141414 !important;
   color: #ffffff;
@@ -159,3 +160,146 @@
     margin: 20px 0 10px 0;
   }
 }
+=======
+.certifications {
+  background: #141414;
+  color: #ffffff;
+}
+
+.certifications-container {
+  max-width: 1200px;
+  height: 100vh;
+  padding: 120px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  position: relative;
+}
+
+.certifications-container::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../img/detail.svg") no-repeat center;
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+}
+
+.certifications .subtitle {
+  color: #515151;
+  max-width: 5ch;
+}
+
+.certifications-text {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+
+.certifications-text strong {
+  color: #ffffff;
+}
+
+.cours-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.cours {
+  flex: 1;
+  background: #000000;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cours-name {
+  flex: 1;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.cours-name::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#ce3d3d, #ca2a2a);
+  position: absolute;
+  left: -24px;
+}
+
+.institution {
+  font-size: 1.125rem;
+  color: #a3a3a3;
+}
+
+.languages {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #8f8f8f;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.languages ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.languages h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.languages h3::before {
+  background: url("../img/languages.svg") no-repeat center center;
+
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: 0px;
+}
+
+.languages li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.languages li span {
+  color: #8f8f8f;
+}
+
+@media (max-width: 800px) {
+  .certifications-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .certifications .subtitle {
+    color: #ffffff;
+  }
+  .certifications-text {
+    font-size: 1.25rem;
+  }
+  .languages h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
+>>>>>>> bf69c3d (added some projects)
